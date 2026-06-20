@@ -1,0 +1,10 @@
+INSERT @index 15 -> PatientID=1001, Name=John Doe, Age=47, Department=Emergency, UrgencyLevel=5, TreatmentStatus=Waiting
+INSERT (collision) @index 15 -> PatientID=1030, Name=Luca B, Age=51, Department=Radiology, UrgencyLevel=1, TreatmentStatus=Discharged
+INSERT @index 16 -> PatientID=1060, Name=Aisha R, Age=40, Department=Labs, UrgencyLevel=5, TreatmentStatus=Waiting
+INSERT (collision) @index 16 -> PatientID=1002, Name=Jane Smith, Age=34, Department=ICU, UrgencyLevel=4, TreatmentStatus=Waiting
+INSERT @index 17 -> PatientID=1003, Name=Mark Tan, Age=63, Department=Wards, UrgencyLevel=3, TreatmentStatus=In Treatment
+SEARCH @index 15 -> FOUND: PatientID=1001, Name=John Doe, Age=47, Department=Emergency, UrgencyLevel=5, TreatmentStatus=Waiting
+SEARCH @index 23 -> NOT FOUND (PatientID=9999)
+DELETE @index 15 -> OK (PatientID=1030)
+SEARCH @index 15 -> NOT FOUND (PatientID=1030)
+UPDATE @index 15 -> PatientID=1001, Name=John Doe, Age=48, Department=Emergency, UrgencyLevel=5, TreatmentStatus=In Treatment

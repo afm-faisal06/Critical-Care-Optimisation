@@ -1,0 +1,23 @@
+INSERT @index 0 -> PatientID=2001, Name=P01, Age=30, Department=Emergency, UrgencyLevel=5, TreatmentStatus=Waiting
+INSERT @index 1 -> PatientID=2002, Name=P02, Age=31, Department=ICU, UrgencyLevel=4, TreatmentStatus=Waiting
+INSERT @index 2 -> PatientID=2003, Name=P03, Age=32, Department=Wards, UrgencyLevel=3, TreatmentStatus=Waiting
+INSERT @index 3 -> PatientID=2004, Name=P04, Age=33, Department=Pharmacy, UrgencyLevel=2, TreatmentStatus=Waiting
+INSERT @index 4 -> PatientID=2005, Name=P05, Age=34, Department=Labs, UrgencyLevel=1, TreatmentStatus=Waiting
+INSERT @index 5 -> PatientID=2006, Name=P06, Age=35, Department=Theatres, UrgencyLevel=5, TreatmentStatus=Waiting
+INSERT @index 6 -> PatientID=2007, Name=P07, Age=36, Department=Outpatient, UrgencyLevel=4, TreatmentStatus=Waiting
+INSERT @index 7 -> PatientID=2008, Name=P08, Age=37, Department=Radiology, UrgencyLevel=3, TreatmentStatus=Waiting
+INSERT @index 8 -> PatientID=2009, Name=P09, Age=38, Department=Emergency, UrgencyLevel=2, TreatmentStatus=Waiting
+INSERT @index 9 -> PatientID=2010, Name=P10, Age=39, Department=ICU, UrgencyLevel=1, TreatmentStatus=Waiting
+INSERT @index 10 -> PatientID=2011, Name=P11, Age=40, Department=Wards, UrgencyLevel=5, TreatmentStatus=Waiting
+INSERT @index 11 -> PatientID=2012, Name=P12, Age=41, Department=Pharmacy, UrgencyLevel=4, TreatmentStatus=Waiting
+INSERT @index 12 -> PatientID=2013, Name=P13, Age=42, Department=Labs, UrgencyLevel=3, TreatmentStatus=Waiting
+INSERT @index 13 -> PatientID=2014, Name=P14, Age=43, Department=Theatres, UrgencyLevel=2, TreatmentStatus=Waiting
+INSERT @index 14 -> PatientID=2015, Name=P15, Age=44, Department=Outpatient, UrgencyLevel=1, TreatmentStatus=Waiting
+INSERT @index 15 -> PatientID=2016, Name=P16, Age=45, Department=Radiology, UrgencyLevel=5, TreatmentStatus=Waiting
+INSERT @index 16 -> PatientID=2017, Name=P17, Age=46, Department=Emergency, UrgencyLevel=4, TreatmentStatus=Waiting
+INSERT @index 17 -> PatientID=2018, Name=P18, Age=47, Department=ICU, UrgencyLevel=3, TreatmentStatus=Waiting
+INSERT @index 18 -> PatientID=2019, Name=P19, Age=48, Department=Wards, UrgencyLevel=2, TreatmentStatus=Waiting
+INSERT @index 19 -> PatientID=2020, Name=P20, Age=49, Department=Pharmacy, UrgencyLevel=1, TreatmentStatus=Waiting
+INSERT @index 20 -> PatientID=2021, Name=P21, Age=50, Department=Labs, UrgencyLevel=5, TreatmentStatus=Waiting
+RESIZE: 29 -> 59
+INSERT @index 16 -> PatientID=2022, Name=P22, Age=51, Department=Theatres, UrgencyLevel=4, TreatmentStatus=Waiting

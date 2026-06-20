@@ -1,0 +1,12 @@
+# Basic coverage: collisions, hits/misses, delete, post-delete search, duplicate (update)
+INSERT 1001 John_Doe 47 Emergency 5 Waiting
+INSERT 1030 Luca_B 51 Radiology 1 Discharged
+INSERT 1060 Aisha_R 40 Labs 5 Waiting
+INSERT 1002 Jane_Smith 34 ICU 4 Waiting
+INSERT 1003 Mark_Tan 63 Wards 3 In_Treatment
+
+SEARCH 1001
+SEARCH 9999
+DELETE 1030
+SEARCH 1030
+INSERT 1001 John_Doe 48 Emergency 5 In_Treatment

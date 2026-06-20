@@ -1,0 +1,3 @@
+PATIENT 7201 Riya_H 26 Pharmacy 4 Waiting
+PATIENT 7202 Tom_R 36 Radiology 5 Waiting
+PATIENT 7203 Uma_J 64 ICU 2 Waiting

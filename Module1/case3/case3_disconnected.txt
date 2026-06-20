@@ -1,0 +1,26 @@
+# Component A
+DEPT Emergency 0 0
+DEPT ICU 0 2
+DEPT Pharmacy 1 1
+DEPT Labs 2 2
+
+# Component B
+DEPT Radiology 10 10
+DEPT Theatres 11 10
+DEPT Wards 12 10
+
+# Isolated node
+DEPT Outpatient 50 50
+
+# Edges only within components (no cross edges)
+EDGE Emergency ICU 2
+EDGE ICU Pharmacy 2
+EDGE Pharmacy Labs 2   # A is a chain (acyclic)
+
+EDGE Radiology Theatres 1
+EDGE Theatres Wards 1  # B is also a chain (acyclic)
+
+# Queries
+BFS Outpatient           # start from isolated node (should only show Level 0: Outpatient)
+DFS Emergency            # acyclic (should say Cycle detected: NO)
+ASTAR Emergency Wards    # across different components (should say "No path found.")

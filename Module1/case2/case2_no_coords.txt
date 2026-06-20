@@ -1,0 +1,27 @@
+# Same rooms; no coordinates this time
+DEPT Emergency
+DEPT ICU
+DEPT Pharmacy
+DEPT Radiology
+DEPT Labs
+DEPT Theatres
+DEPT Wards
+DEPT Outpatient
+
+# Weighted corridors (cycle present, connected)
+EDGE Emergency ICU 4
+EDGE Emergency Pharmacy 3
+EDGE Pharmacy Radiology 2
+EDGE ICU Labs 2
+EDGE Radiology Theatres 3
+EDGE Labs Wards 2
+EDGE Pharmacy Wards 5
+EDGE Wards Radiology 3
+EDGE Theatres Outpatient 4
+EDGE ICU Pharmacy 3
+EDGE Labs Radiology 4
+
+# Queries (different starts)
+BFS Pharmacy
+DFS Labs
+ASTAR Labs Outpatient

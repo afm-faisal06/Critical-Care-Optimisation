@@ -1,0 +1,8 @@
+# Priority = (6-U) + 1000/T
+REQUEST 7001 20      # U=1 -> 5 + 1000/20=50 => 55
+REQUEST 7002 25      # U=2 -> 4 + 40 => 44
+REQUEST 7003 40      # U=3 -> 3 + 25 => 28
+REQUEST 7004 10      # U=1 -> 5 + 100 => 105
+PEEK
+EXTRACT
+EXTRACT

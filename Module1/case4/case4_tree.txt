@@ -1,0 +1,23 @@
+# A simple tree (8 nodes), connected, acyclic
+DEPT Emergency 0 0
+DEPT Triage 1 0
+DEPT ICU 2 0
+DEPT Wards 2 1
+DEPT Pharmacy 1 1
+DEPT Labs 0 1
+DEPT Radiology 3 0
+DEPT Theatres 4 0
+
+# Tree edges (no cycles)
+EDGE Emergency Triage 1
+EDGE Triage ICU 2
+EDGE ICU Wards 2
+EDGE Triage Pharmacy 2
+EDGE Emergency Labs 2
+EDGE ICU Radiology 3
+EDGE Radiology Theatres 1
+
+# Queries
+BFS Emergency
+DFS Emergency          # should report NO cycle
+ASTAR Labs Theatres    # path exists; A* should exploit coordinates nicely

@@ -1,0 +1,4 @@
+DFS Cycle Detection (undirected)
+Start: Labs
+Cycle detected: YES
+Members: Pharmacy -> Emergency -> ICU

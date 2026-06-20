@@ -1,0 +1,4 @@
+A* Shortest Path
+From: Labs To: Outpatient
+Path: Labs -> Radiology -> Theatres -> Outpatient
+Total walking time: 11 minutes

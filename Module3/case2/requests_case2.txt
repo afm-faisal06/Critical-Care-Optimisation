@@ -1,0 +1,7 @@
+REQUEST XYZ 30      # invalid PID
+REQUEST 7103 20     # inactive -> skipped
+REQUEST 9999 15     # unknown -> skipped
+REQUEST 7101 30     # OK: U=2 -> 4 + 33.333... => 37.333...
+REQUEST 7102 0      # T<=0 -> skipped
+EXTRACT
+EXTRACT

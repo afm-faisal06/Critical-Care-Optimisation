@@ -1,0 +1,2 @@
+INDEX 15 CHAIN: {1001:John Doe} -> {1030:Luca B}
+INDEX 16 CHAIN: {1060:Aisha R} -> {1002:Jane Smith}

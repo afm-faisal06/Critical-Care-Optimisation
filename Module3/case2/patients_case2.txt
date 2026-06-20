@@ -1,0 +1,5 @@
+PATIENT 7101 Omar_Q 38 Theatres 2 In_Treatment
+PATIENT 7102 Priti_S 29 Pharmacy 4 Waiting
+PATIENT 7103 Quinn_T 50 Radiology 3 Discharged   # inactive on purpose
+# Following line is ignored (not PATIENT/INSERT)
+IGNORE this line

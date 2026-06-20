@@ -1,0 +1,4 @@
+A* Shortest Path
+From: Emergency To: Outpatient
+Path: Emergency -> Pharmacy -> Radiology -> Theatres -> Outpatient
+Total walking time: 12 minutes

@@ -1,0 +1,23 @@
+# 22 unique inserts to trigger RESIZE: 29 -> 59
+INSERT 2001 P01 30 Emergency 5 Waiting
+INSERT 2002 P02 31 ICU 4 Waiting
+INSERT 2003 P03 32 Wards 3 Waiting
+INSERT 2004 P04 33 Pharmacy 2 Waiting
+INSERT 2005 P05 34 Labs 1 Waiting
+INSERT 2006 P06 35 Theatres 5 Waiting
+INSERT 2007 P07 36 Outpatient 4 Waiting
+INSERT 2008 P08 37 Radiology 3 Waiting
+INSERT 2009 P09 38 Emergency 2 Waiting
+INSERT 2010 P10 39 ICU 1 Waiting
+INSERT 2011 P11 40 Wards 5 Waiting
+INSERT 2012 P12 41 Pharmacy 4 Waiting
+INSERT 2013 P13 42 Labs 3 Waiting
+INSERT 2014 P14 43 Theatres 2 Waiting
+INSERT 2015 P15 44 Outpatient 1 Waiting
+INSERT 2016 P16 45 Radiology 5 Waiting
+INSERT 2017 P17 46 Emergency 4 Waiting
+INSERT 2018 P18 47 ICU 3 Waiting
+INSERT 2019 P19 48 Wards 2 Waiting
+INSERT 2020 P20 49 Pharmacy 1 Waiting
+INSERT 2021 P21 50 Labs 5 Waiting
+INSERT 2022 P22 51 Theatres 4 Waiting

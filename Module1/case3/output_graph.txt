@@ -1,0 +1,9 @@
+Adjacency List (weighted, undirected)
+Emergency: ICU(2)
+ICU: Emergency(2) Pharmacy(2)
+Labs: Pharmacy(2)
+Outpatient: 
+Pharmacy: ICU(2) Labs(2)
+Radiology: Theatres(1)
+Theatres: Radiology(1) Wards(1)
+Wards: Theatres(1)

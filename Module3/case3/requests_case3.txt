@@ -1,0 +1,9 @@
+REQUEST 7201 40    # U=4 -> 2 + 25 => 27
+REQUEST 7202 20    # U=5 -> 1 + 50 => 51
+REQUEST 7203 25    # U=2 -> 4 + 40 => 44
+PEEK
+EXTRACT
+UPDATE 7201 1 In_Treatment  # urgency 4 -> 1
+REQUEST 7201 30             # now U=1 -> 5 + 33.333.. => 38.333..
+EXTRACT
+EXTRACT

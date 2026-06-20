@@ -1,0 +1,14 @@
+VALIDATION ERROR -> Invalid PatientID (must be integer).
+INSERT ERROR: Invalid PatientID (must be integer).
+INSERT @index 15 -> PatientID=3002, Name=EmptyName, Age=40, Department=ICU, UrgencyLevel=4, TreatmentStatus=Waiting
+VALIDATION ERROR -> Urgency must be 1..5.
+INSERT ERROR: Urgency must be 1..5.
+VALIDATION ERROR -> Invalid Age.
+INSERT ERROR: Invalid Age.
+VALIDATION ERROR -> Urgency must be 1..5.
+INSERT ERROR: Urgency must be 1..5.
+INSERT @index 19 -> PatientID=3006, Name=Carol, Age=31, Department=Theatres, UrgencyLevel=5, TreatmentStatus= 
+SEARCH @index 15 -> FOUND: PatientID=3002, Name=EmptyName, Age=40, Department=ICU, UrgencyLevel=4, TreatmentStatus=Waiting
+SEARCH @index 26 -> NOT FOUND (PatientID=3999)
+DELETE @index 15 -> OK (PatientID=3002)
+SEARCH @index 15 -> NOT FOUND (PatientID=3002)

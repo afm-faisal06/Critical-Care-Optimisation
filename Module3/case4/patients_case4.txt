@@ -1,0 +1,11 @@
+PATIENT 5001 Alice_W 41 Emergency 1 Waiting
+PATIENT 5002 Bob_K 55 ICU 2 Waiting
+PATIENT 5003 Chen_L 63 Wards 3 In_Treatment
+PATIENT 5004 Devi_R 36 Pharmacy 4 Waiting
+PATIENT 5005 Elias_T 29 Radiology 5 Waiting
+PATIENT 5006 Farah_M 47 Labs 2 Waiting
+PATIENT 5007 Gita_P 33 Theatres 1 Waiting
+PATIENT 5008 Hadi_Q 71 Outpatient 3 Discharged
+PATIENT 5009 Inez_S 58 ICU 4 Waiting
+PATIENT 5010 Jamal_U 22 Emergency 2 Waiting
+PATIENT 5011 Kira_V 44 Wards 5 Waiting

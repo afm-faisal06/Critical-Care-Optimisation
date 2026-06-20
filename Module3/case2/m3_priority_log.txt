@@ -1,0 +1,6 @@
+PATIENT FILE: ignored line -> IGNORE this line
+REQUEST ERROR -> invalid PatientID: XYZ
+REQUEST SKIPPED -> inactive status for PID=7103 (Discharged)
+REQUEST SKIPPED -> PatientID not found: 9999
+PRIORITY pid=7101 U=2 T=30 -> 37.333333333333336
+REQUEST SKIPPED -> non-positive T for PID=7102

@@ -1,0 +1,5 @@
+BFS from Pharmacy (grouped by levels)
+Level 0: Pharmacy
+Level 1: Emergency, ICU, Radiology, Wards
+Level 2: Labs, Theatres
+Level 3: Outpatient

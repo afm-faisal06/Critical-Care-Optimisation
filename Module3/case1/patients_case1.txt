@@ -1,0 +1,5 @@
+# pid name age dept urgency status
+PATIENT 7001 Alice_W 40 Emergency 1 Waiting
+PATIENT 7002 Bob_K 55 ICU 2 Waiting
+PATIENT 7003 Chen_L 63 Wards 3 Waiting
+PATIENT 7004 Devi_R 36 Pharmacy 1 Waiting

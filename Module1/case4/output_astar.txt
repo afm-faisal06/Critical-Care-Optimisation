@@ -1,0 +1,4 @@
+A* Shortest Path
+From: Labs To: Theatres
+Path: Labs -> Emergency -> Triage -> ICU -> Radiology -> Theatres
+Total walking time: 9 minutes

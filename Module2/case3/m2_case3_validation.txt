@@ -1,0 +1,11 @@
+# Invalid fields should log VALIDATION ERROR and INSERT ERROR
+INSERT X12 Bad_ID 30 Emergency 3 Waiting        # non-integer PatientID
+INSERT 3002 EmptyName 40 ICU 4 Waiting          # okay
+INSERT 3003 _ 25 Wards 6 Waiting                # urgency out of range
+INSERT 3004 Alice 200 Pharmacy 3 Waiting        # age out of range
+INSERT 3005 Bob 28 Labs 0 Waiting               # urgency out of range (low)
+INSERT 3006 Carol 31 Theatres 5 _               # empty status not allowed
+SEARCH 3002
+SEARCH 3999
+DELETE 3002
+SEARCH 3002

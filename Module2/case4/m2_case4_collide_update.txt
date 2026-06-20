@@ -1,0 +1,12 @@
+# Force two chains, then delete a middle/second item, then update an existing key
+INSERT 1001 John_Doe 47 Emergency 5 Waiting
+INSERT 1030 Luca_B 51 Radiology 1 Discharged
+INSERT 1060 Aisha_R 40 Labs 5 Waiting
+INSERT 1002 Jane_Smith 34 ICU 4 Waiting
+INSERT 1004 Priya_K 29 Pharmacy 2 Waiting
+
+DELETE 1002
+SEARCH 1002
+SEARCH 1060
+INSERT 1001 John_Doe 49 Emergency 5 In_Treatment
+SEARCH 1001

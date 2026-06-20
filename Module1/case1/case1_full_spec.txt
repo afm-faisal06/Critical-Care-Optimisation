@@ -1,0 +1,29 @@
+# Departments (with coordinates for Manhattan heuristic)
+DEPT Emergency 0 0
+DEPT ICU 0 3
+DEPT Pharmacy 2 1
+DEPT Radiology 3 2
+DEPT Labs 1 4
+DEPT Theatres 4 1
+DEPT Wards 2 4
+DEPT Outpatient 5 3
+DEPT Isolation 10 10
+
+# 10–12 weighted corridors, undirected
+EDGE Emergency ICU 4
+EDGE Emergency Pharmacy 3
+EDGE Pharmacy Radiology 2
+EDGE ICU Labs 2
+EDGE Radiology Theatres 3
+EDGE Labs Wards 2
+EDGE Pharmacy Wards 5
+EDGE Wards Radiology 3
+EDGE Theatres Outpatient 4
+EDGE ICU Pharmacy 3
+EDGE Labs Radiology 4
+EDGE Emergency Labs 7
+
+# Queries
+BFS Emergency
+DFS Emergency
+ASTAR Emergency Outpatient

@@ -1,0 +1,6 @@
+SUMMARY
+Records: 1
+Table size (buckets): 29
+Load factor: 0.034482758620689655
+Resizes: 0
+Step counter (approx ops): 8

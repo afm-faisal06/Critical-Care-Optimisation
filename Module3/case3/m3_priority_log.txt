@@ -1,0 +1,5 @@
+PRIORITY pid=7201 U=4 T=40 -> 27.0
+PRIORITY pid=7202 U=5 T=20 -> 51.0
+PRIORITY pid=7203 U=2 T=25 -> 44.0
+UPDATED PATIENT -> PatientID=7201, Name=Riya H, Age=26, Department=Pharmacy, UrgencyLevel=1, TreatmentStatus=In Treatment
+PRIORITY pid=7201 U=1 T=30 -> 38.333333333333336

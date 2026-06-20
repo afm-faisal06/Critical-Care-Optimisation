@@ -1,0 +1,6 @@
+BFS from Emergency (grouped by levels)
+Level 0: Emergency
+Level 1: ICU, Labs, Pharmacy
+Level 2: Radiology, Wards
+Level 3: Theatres
+Level 4: Outpatient
