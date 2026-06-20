@@ -72,8 +72,7 @@ Algorithms: BFS, DFS, and A* (Manhattan heuristic) for route optimisation.
 
 Outputs: output_graph.txt, output_bfs.txt, output_dfs.txt, output_astar.txt.
 
-
-
+<br>
 **Module 2 – Hash Table (Chaining):**
 
 Input Files: m2_case1_basic.txt to m2_case4_collide_update.txt.
@@ -82,8 +81,7 @@ Purpose: Stores and retrieves patient details via custom hashing.
 
 Outputs: m2_log.txt, m2_collisions.txt, m2_summary.txt.
 
-
-
+<br>
 **Module 3 – Heap Scheduler (Emergency Queue):**
 
 Input Files: patients_caseX.txt and requests_caseX.txt.
@@ -92,8 +90,7 @@ Purpose: Uses a Max-Heap to allocate patients based on urgency (U) and treatment
 
 Outputs: m3_heap_trace.txt, m3_priority_log.txt, m3_summary.txt.
 
-
-
+<br>
 **Module 4 – Sorting (Merge vs Quick Sort):**
 
 Input File: m4_experiments.txt
@@ -108,11 +105,10 @@ m4_opcounts.txt – comparison and move counts
 
 sorted_merge_*.txt and sorted_quick_*.txt – sorted outputs for each dataset
 
+<br>
+**Dataset Types:** random, nearly sorted, and reversed arrays.
 
-
-Dataset Types: random, nearly sorted, and reversed arrays.
-
-Final version: 27 October, 2025
+**Final version:** 27 October, 2025
 
 
 ## Learning Outcomes
