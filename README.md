@@ -80,14 +80,14 @@ Developed for **COMP5008 – Data Structures and Algorithms**, Curtin University
 ### Folder/file Description
 
 - `mod1.py`	- Implements hospital layout using a weighted graph. Supports BFS, DFS, and A* algorithms for pathfinding between departments.
-- `mod2.py`	- Builds a hash table with chaining to store and retrieve patient records efficiently.
-- `mod3.py` - Uses a max-heap to prioritise patient treatments based on urgency and treatment time.
-- `mod4.py`	- Compares Merge Sort and Quick Sort algorithms on patient records for performance reporting.
+- `mod2.py`	– Builds a hash table with chaining to store and retrieve patient records efficiently.
+- `mod3.py` – Uses a max-heap to prioritise patient treatments based on urgency and treatment time.
+- `mod4.py`	– Compares Merge Sort and Quick Sort algorithms on patient records for performance reporting.
 - `case*/` – Contains demo input files for each module (e.g., department graphs, patient lists, request files, benchmark datasets, etc.).
 - `case*/` output files – Each module writes processed results, logs, traces, and timing summaries to its corresponding case folder.
 - `COMP5008_Final Assignment_Semester 2 2025.pdf` – Original assignment specification provided by Curtin University.
 - `Technical_Report.pdf` – Detailed discussion of design decisions, implementation, testing, and performance analysis.
-- `README.md` - Project documentation
+- `README.md` – Project documentation
 
 
 ## How to run: 
