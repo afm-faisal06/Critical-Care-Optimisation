@@ -60,7 +60,9 @@ case../	Contains demo input files for each module (e.g., department graphs, pati
 In order to run the python files, you need to run each module seperately. For example, python3 mod1.py
 
 
-You’ll be prompted to enter an input file name, or press Enter to use a default demo input. For eaxmple, in case of Module 1 – Graph (Weighted, Undirected): 
+You’ll be prompted to enter an input file name, or press Enter to use a default demo input. For eaxmple, in case of 
+
+<u>Module 1 – Graph (Weighted, Undirected): </u>
 
 Input Files: case1_full_spec.txt, case2_no_coords.txt, etc.
 
@@ -71,7 +73,8 @@ Algorithms: BFS, DFS, and A* (Manhattan heuristic) for route optimisation.
 Outputs: output_graph.txt, output_bfs.txt, output_dfs.txt, output_astar.txt.
 
 
-Module 2 – Hash Table (Chaining)
+
+<u>Module 2 – Hash Table (Chaining):</u>
 
 Input Files: m2_case1_basic.txt to m2_case4_collide_update.txt.
 
@@ -80,7 +83,8 @@ Purpose: Stores and retrieves patient details via custom hashing.
 Outputs: m2_log.txt, m2_collisions.txt, m2_summary.txt.
 
 
-Module 3 – Heap Scheduler (Emergency Queue)
+
+<u>Module 3 – Heap Scheduler (Emergency Queue): </u>
 
 Input Files: patients_caseX.txt and requests_caseX.txt.
 
@@ -90,7 +94,7 @@ Outputs: m3_heap_trace.txt, m3_priority_log.txt, m3_summary.txt.
 
 
 
-Module 4 – Sorting (Merge vs Quick Sort)
+<u>Module 4 – Sorting (Merge vs Quick Sort): </u>
 
 Input File: m4_experiments.txt
 
@@ -104,9 +108,12 @@ m4_opcounts.txt – comparison and move counts
 
 sorted_merge_*.txt and sorted_quick_*.txt – sorted outputs for each dataset
 
+
+
 Dataset Types: random, nearly sorted, and reversed arrays.
 
 Final version: 27 October, 2025
+
 
 ## Learning Outcomes
 
