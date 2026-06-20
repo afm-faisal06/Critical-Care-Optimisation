@@ -47,35 +47,34 @@ Developed for **COMP5008 – Data Structures and Algorithms**, Curtin University
 ## Repository Contents
 
 ```text
-COMP5008_Final_Assignment/
-│
-├── README.md
-├── Technical_Report.pdf
-├── Assignment_Instructions.pdf
-│
 ├── Module1/
-│   ├── mod1.py
 │   ├── case1/
 │   ├── case2/
-│   └── ...
+│   ├── case3/
+│   ├── case4/
+│   └── mod1.py
 │
 ├── Module2/
-│   ├── mod2.py
 │   ├── case1/
 │   ├── case2/
-│   └── ...
+│   ├── case3/
+│   ├── case4/
+│   └── mod2.py
 │
 ├── Module3/
-│   ├── mod3.py
 │   ├── case1/
 │   ├── case2/
-│   └── ...
+│   ├── case3/
+│   ├── case4/
+│   └── mod3.py
 │
 └── Module4/
-    ├── mod4.py
-    ├── case1/
-    ├── case2/
-    └── ...
+│   ├── case/
+│   └── mod4.py
+│ 
+├── COMP5008_Final Assignment_Semester 2 2025.pdf
+├── README.md
+└── Technical_Report.pdf
 ```
 
 ### Folder/file Description
