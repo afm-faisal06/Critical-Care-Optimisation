@@ -44,7 +44,7 @@ Developed for **COMP5008 – Data Structures and Algorithms**, Curtin University
 
 # Instrcutions to run the program for the assignment on Critical Care Optimisation: Hospital Efficiency Data Structure and Algorithms Optimisation
 
-
+## Repository Contents
 mod1.py	- Implements hospital layout using a weighted graph. Supports BFS, DFS, and A* algorithms for pathfinding between departments.
 
 mod2.py	- Builds a hash table with chaining to store and retrieve patient records efficiently.
@@ -53,7 +53,7 @@ mod3.py - Uses a max-heap to prioritise patient treatments based on urgency and 
 
 mod4.py	- Compares Merge Sort and Quick Sort algorithms on patient records for performance reporting.
 
-case../	Contains demo input files for each module (e.g., department graphs, patient lists, request files, etc.). Also, Each module writes its processed results, logs, and timing summaries here.
+case../:	Contains demo input files for each module (e.g., department graphs, patient lists, request files, etc.). Also, Each module writes its processed results, logs, and timing summaries here.
 
 
 ## How to run: 
