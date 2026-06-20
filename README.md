@@ -45,15 +45,50 @@ Developed for **COMP5008 – Data Structures and Algorithms**, Curtin University
 # Instrcutions to run the program for the assignment on Critical Care Optimisation: Hospital Efficiency Data Structure and Algorithms Optimisation
 
 ## Repository Contents
-mod1.py	- Implements hospital layout using a weighted graph. Supports BFS, DFS, and A* algorithms for pathfinding between departments.
 
-mod2.py	- Builds a hash table with chaining to store and retrieve patient records efficiently.
+```text
+COMP5008_Final_Assignment/
+│
+├── README.md
+├── Technical_Report.pdf
+├── Assignment_Instructions.pdf
+│
+├── Module1/
+│   ├── mod1.py
+│   ├── case1/
+│   ├── case2/
+│   └── ...
+│
+├── Module2/
+│   ├── mod2.py
+│   ├── case1/
+│   ├── case2/
+│   └── ...
+│
+├── Module3/
+│   ├── mod3.py
+│   ├── case1/
+│   ├── case2/
+│   └── ...
+│
+└── Module4/
+    ├── mod4.py
+    ├── case1/
+    ├── case2/
+    └── ...
+```
 
-mod3.py - Uses a max-heap to prioritise patient treatments based on urgency and treatment time.
+### Folder/file Description
 
-mod4.py	- Compares Merge Sort and Quick Sort algorithms on patient records for performance reporting.
-
-case../:	Contains demo input files for each module (e.g., department graphs, patient lists, request files, etc.). Also, Each module writes its processed results, logs, and timing summaries here.
+- `mod1.py`	- Implements hospital layout using a weighted graph. Supports BFS, DFS, and A* algorithms for pathfinding between departments.
+- `mod2.py`	- Builds a hash table with chaining to store and retrieve patient records efficiently.
+- `mod3.py` - Uses a max-heap to prioritise patient treatments based on urgency and treatment time.
+- `mod4.py`	- Compares Merge Sort and Quick Sort algorithms on patient records for performance reporting.
+- `case*/` – Contains demo input files for each module (e.g., department graphs, patient lists, request files, benchmark datasets, etc.).
+- `case*/` output files – Each module writes processed results, logs, traces, and timing summaries to its corresponding case folder.
+- `COMP5008_Final Assignment_Semester 2 2025.pdf` – Original assignment specification provided by Curtin University.
+- `Technical_Report.pdf` – Detailed discussion of design decisions, implementation, testing, and performance analysis.
+- `README.md` - Project documentation
 
 
 ## How to run: 
