@@ -62,8 +62,7 @@ In order to run the python files, you need to run each module seperately. For ex
 
 You’ll be prompted to enter an input file name, or press Enter to use a default demo input. For eaxmple, in case of 
 
-Module 1 – Graph (Weighted, Undirected):
-----------------------------------------
+**Module 1 – Graph (Weighted, Undirected):**
 
 Input Files: case1_full_spec.txt, case2_no_coords.txt, etc.
 
@@ -75,8 +74,7 @@ Outputs: output_graph.txt, output_bfs.txt, output_dfs.txt, output_astar.txt.
 
 
 
-Module 2 – Hash Table (Chaining):
------------------------------------
+**Module 2 – Hash Table (Chaining):**
 
 Input Files: m2_case1_basic.txt to m2_case4_collide_update.txt.
 
@@ -86,8 +84,7 @@ Outputs: m2_log.txt, m2_collisions.txt, m2_summary.txt.
 
 
 
-Module 3 – Heap Scheduler (Emergency Queue):
----------------------------------------------
+**Module 3 – Heap Scheduler (Emergency Queue):**
 
 Input Files: patients_caseX.txt and requests_caseX.txt.
 
@@ -97,8 +94,7 @@ Outputs: m3_heap_trace.txt, m3_priority_log.txt, m3_summary.txt.
 
 
 
-Module 4 – Sorting (Merge vs Quick Sort):
-------------------------------------------
+**Module 4 – Sorting (Merge vs Quick Sort):**
 
 Input File: m4_experiments.txt
 
